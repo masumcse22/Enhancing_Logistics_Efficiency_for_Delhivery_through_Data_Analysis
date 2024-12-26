@@ -123,3 +123,106 @@ With these insights, Delhivery can streamline delivery routes, enhance vehicle u
 ## 📢 Acknowledgments:
 This project is a comprehensive analysis aimed at leveraging data for improving logistics performance. It demonstrates the power of BI solutions in tackling real-world supply chain challenges.
 
+
+# 🚚 Trip Efficiency Dashboard
+
+
+![Dashboard_1: Trip Efficiency Dashboard](<img width="803" alt="Image" src="https://github.com/user-attachments/assets/0da7f886-8214-40dd-9371-53921d06c7c0" />)
+
+
+## 🎯 Objective:
+The **Trip Efficiency Dashboard** is designed to monitor and analyze delivery trip efficiency across various regions. This tool empowers Delhivery to identify patterns in trip durations, delivery delays, and the factors affecting delivery performance. The ultimate goal is to provide actionable insights for optimizing trip scheduling and enhancing delivery performance.
+
+---
+
+## 📊 Key Performance Indicators (KPIs):
+
+### ⏱️ **Average Trip Duration**:
+- **Definition**: The average time taken to complete a delivery trip, calculated from the trip start time to the trip end time.
+- **Formula**: Average(Trip End Time - Trip Start Time)
+- **Objective**: Monitor overall delivery efficiency and track improvements over time.
+
+### 🕒 **On-Time Delivery Rate (%)**:
+- **Definition**: The percentage of trips completed within the estimated time.
+- **Formula**: (Number of On-Time Deliveries / Total Deliveries) × 100
+- **Objective**: Measure adherence to delivery schedules and identify delays.
+
+### 🚩 **Late Deliveries Count**:
+- **Definition**: The total number of trips exceeding the estimated delivery time.
+- **Objective**: Highlight operational inefficiencies and pinpoint improvement areas.
+
+### 📏 **Average Distance per Trip**:
+- **Definition**: The average distance covered by a delivery vehicle during a trip.
+- **Formula**: Average(Distance Covered)
+- **Objective**: Assess logistics efficiency in route planning.
+
+### 📅 **Trips Completed per Day**:
+- **Definition**: The total number of trips completed daily.
+- **Objective**: Monitor trip volume and plan capacity effectively.
+
+### ⛽ **Average Fuel Usage per Trip** *(Optional)*:
+- **Definition**: The average fuel consumed per delivery trip.
+- **Objective**: Track environmental and cost impacts of deliveries.
+
+---
+
+## 🔍 Filters and Slicers:
+
+### 📆 **Date Range Filter**:
+- **Purpose**: Allows users to filter data by specific time periods (e.g., weekly, monthly, yearly).
+- **Impact**: Compare trip efficiency over different time frames.
+
+### 🌍 **Region/City Slicer**:
+- **Purpose**: Filters data by region or city for localized insights.
+- **Impact**: Identify regional patterns and optimize local delivery operations.
+
+### 🚛 **Vehicle Type Slicer**:
+- **Purpose**: Filters data based on vehicle types (e.g., trucks, vans, two-wheelers).
+- **Impact**: Compare efficiency across transportation modes.
+
+### 📦 **Delivery Status Filter**:
+- **Purpose**: Filters data by delivery status (e.g., on-time, delayed, in-progress).
+- **Impact**: Track the performance of completed vs. ongoing trips.
+
+### 🛣️ **Trip Distance Slicer**:
+- **Purpose**: Filter trips by distance traveled (e.g., short, medium, long trips).
+- **Impact**: Understand efficiency for varying trip lengths.
+
+### 📅 **Day of the Week Slicer**:
+- **Purpose**: Analyze trends by weekdays vs. weekends.
+- **Impact**: Inform scheduling decisions based on daily patterns.
+
+### 🌅 **Time of Day Slicer** *(Optional)*:
+- **Purpose**: Filter data by time slots (e.g., morning, afternoon, evening).
+- **Impact**: Optimize scheduling based on time-of-day performance.
+
+---
+
+## 🖼️ Dashboard Layout:
+
+### 🧭 **Top Section**:
+- **Filters**: Date Range, Region Slicer, and Vehicle Type Slicer for quick navigation.
+
+### 📋 **Left Panel (KPIs)**:
+- Dynamic cards displaying KPIs such as Average Trip Duration, On-Time Delivery Rate, Late Deliveries Count, and Average Distance per Trip.
+
+### 📈 **Main Section (Visualizations)**:
+- **Line Chart**: Average Trip Duration over Time (with slicers for Region and Vehicle Type).
+- **Bar Chart**: Trips Completed per Day (with drill-down options by region or vehicle type).
+- **Map Visualization**: Delivery Efficiency by Region.
+- **Bar Chart**: Late Deliveries by City/Region.
+
+### 🎛️ **Bottom Section**:
+- Filters for Delivery Status, Day of the Week, and Trip Distance Slicers to refine data.
+
+---
+
+## 🛠️ Tools:
+- **Power BI / Tableau**: For interactive visualizations and dashboards.
+- **Data Source**: Cleaned dataset from Delhivery’s logistics pipeline.
+
+---
+
+## 🚀 Deliverable:
+A fully interactive **Trip Efficiency Dashboard** providing actionable insights into delivery operations. Users can slice and filter data to uncover specific trends and monitor key logistics metrics.
+
